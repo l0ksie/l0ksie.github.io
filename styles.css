@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/*
+DRACULA THEME:
+Background	    #282a36
+Current Line	#44475a
+Foreground	    #f8f8f2
+Comment         #6272a4
+Cyan            #8be9fd
+Green           #50fa7b
+Orange          #ffb86c
+Pink            #ff79c6
+Purple          #bd93f9
+Red	            #ff5555
+Yellow	        #f1fa8c
+*/
+
+body {
+background:#262833 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAElBMVEUAAAAkJjQsKjQkJiwkKjQkIiwi1qX6AAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAArZJREFUOI0dk+uBXiEIRG2BBSpIUgBBC2CVAlil/1YyX37el5c5nBl+wlqJQv6+1muUyvdpj+aaNvnqDPXFVO+FKel4XHymPy0xM2o5nG9uHvT89cTtL5b7aPe6Wu/m6Ln6xHM6JUHhrD2ZKcbiFheSnUxU+tZLYq4YfncQaWvfu9jIH86ipUM43uqHx260bU2S7nw6Jr29T2lFi5Ipu9xJV0eGEZ4tTMpiXcZ5g7hHqtbChUYa6cNkO/GRj0Vnv1uz1nLSxABrzec2RBUpDt62uUIO8bad+kbndk074rjN6UsNBxYPpzQuQzzHAG/Hlam5eqzKc81qneIZSzzPmcg5vI5c2l4M5ki55k6MG8P8bGbeQtNk3bKJdfW0oUfBwu1VxLuii3blA6u2yvRJelkoGDTouF/CP6bq1t7eafc7ANqtQ4cuidfdFfrUstbbkuuswfciCBAxzirOjbT2GbcqqOadosF6WorynRPYoAcDRYT3KsFKWLafN8eDXGteaBd1KYsfc9TKUVl4aznQUdLhjoxt3zTWVFbG01lTBKoGs4XU2Paut9bcRWTIPE+S8RnwIndj44+AKL30sNJPDZ7XV7pdahXTPL4L6+xxn5xLGIUhVIFG+o1ZEA4I6krsyTsUUkoCpgI7hOV2bpyBa7m58ijJgOe7DpXfV0k4aB0wI+TAUdd9JnJL7h3HE4afsWwbcc4wV5psxeK6JQaqmTRz2tMXDCnsMjjrKBTF/Vz/dARrOYGMomdANEVBUcej93xahy5oCpILYfLbBYXcPz0n67fGk9nymyIhgb7OxgoXiYxfrXBvnXPRuIKq9SVT+I4C9IX/84ZPnJ8WtInvwVD6rLX5ghTg2jmwHzUQIER4jfs/jb+i+zMNiu7Y5wMdSiH5TusjaYWq8cM6gm+itl3zNf+Bnf8AgHLn+nfgKd4AAAAASUVORK5CYII=);
+    color: #f8f8f2;
+    font-family: 'Roboto Mono', sans-serif;
+}
+h1 {
+    font-size: min(2vmax, 18px);
+    text-align: center;
+    border: 1px solid #bd93f9;
+    background-color: #282a36;
+    margin: 0;
+    margin-bottom: 8px;
+    padding: 1px;
+    box-shadow: 3px 4px 3px rgba(0,0,0,0.7);
+}
+a {
+    color: #f8f8f2;
+    text-decoration: none;
+}
+a:hover {
+    color: #ff79c6;
+    text-shadow: 0 0 3px #ff79c6;
+    transition: text-shadow 1s, color 1s;
+}
+#center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#social {
+    font-size: min(2vmax, 18px);
+    padding: 0 6px 0 6px;
+    border: 1px solid #6272a4;
+    background-color: #282a36;
+    box-shadow: 3px 4px 3px rgba(0,0,0,0.7);
+}
+td {
+    margin: 0;
+    line-height: 8px;
+}
+.icon {
+    color: #bd93f9;
+    text-shadow: none;
+}
+footer {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -10%);
+    opacity: 0.3;
+    text-align: center;
+}
